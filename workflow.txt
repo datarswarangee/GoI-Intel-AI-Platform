@@ -1,0 +1,20 @@
+                 User Question
+                       |
+                       v
+              Question Classifier
+                       |
+             +---------+---------+
+             |                   |
+             v                   v
+       Document Query       Data Query
+             |                   |
+             v                   v
+       RAG Retrieval       SQL / Data Analysis
+             |                   |
+             v                   v
+       Source Passages      Computed Results
+             |                   |
+             +---------+---------+
+                       |
+                       v
+             Answer with Evidence
